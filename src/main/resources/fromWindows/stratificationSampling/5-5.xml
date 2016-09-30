@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stratification> 
+  <TS> <!--TotalSet表示总体-->
+    <name>职工</name><!--默认值是“总体”-->
+    <quantity>750</quantity>  <!--默认值是“null”-->
+    <unit>人</unit>  <!--默认值是“null”-->
+  </TS>  
+  <SOT>  <!--Stratification of TotalSet表示总体中的层-->
+    <name>青年职工</name>  
+    <quantity>350</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <SOT> 
+    <name>中年职工</name>  
+    <quantity>250</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <SOT> 
+    <name>老年职工</name>  
+    <quantity>150</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <S> <!--Sample表示样本-->
+    <name>样本</name>  <!--默认值是“样本”-->
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </S>  
+  <SOS> <!--Stratification of Sample表示样本中的层-->
+    <name>青年职工</name>  
+    <quantity>7</quantity>  
+    <unit>人</unit> 
+  </SOS>  
+  <SOS> 
+    <name>中年职工</name>  
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOS>
+  <SOS> 
+    <name>老年职工</name>  
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOS>  
+  <EQ> <!--关系-->
+  </EQ>
+  <QUE>
+    <description>样本容量为</description>
+    <belong>null</belong>
+    <name>样本</name>
+    <unit>人</unit>
+  </QUE>
+  
+</Stratification>
+<!--
+某单位有职工750人，其中青年职工350人，中年职工250人，老年职工150人，
+为了了解该单位职工的健康情况，用分层抽样的方法从中抽取样本。若样本
+中的青年职工为7人，则样本容量为（    ）。
+-->

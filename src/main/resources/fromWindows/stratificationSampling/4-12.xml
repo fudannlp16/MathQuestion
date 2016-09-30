@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stratification> 
+  <TS> <!--TotalSet表示总体-->
+    <name>零件</name><!--默认值是“总体”-->
+    <quantity>null</quantity>  <!--默认值是“null”-->
+    <unit>个</unit>  <!--默认值是“null”-->
+  </TS>  
+  <SOT>  <!--Stratification of TotalSet表示总体中的层-->
+    <name>A零件/name>  
+    <quantity>a</quantity>  
+    <unit>个</unit> 
+  </SOT>  
+  <SOT> 
+    <name>B零件</name>  
+    <quantity>300</quantity>  
+    <unit>个</unit> 
+  </SOT>  
+  <SOT> 
+    <name>C零件</name>  
+    <quantity>200</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <S> <!--Sample表示样本-->
+    <name>样本</name>  <!--默认值是“样本”-->
+    <quantity>45</quantity>  
+    <unit>个</unit> 
+  </S>  
+  <SOS> <!--Stratification of Sample表示样本中的层-->
+    <name>A零件</name>  
+    <quantity>null</quantity>  
+    <unit>个</unit> 
+  </SOS>  
+  <SOS> 
+    <name>B零件</name>  
+    <quantity>null</quantity>  
+    <unit>个</unit> 
+  </SOS>
+  <SOS> 
+    <name>C零件</name>  
+    <quantity>10</quantity>  
+    <unit>个</unit> 
+  </SOS>  
+  <EQ> <!--关系-->
+  </EQ>
+  <QUE>
+    <description>三种零件共有</description>
+    <belong>null</belong>
+    <name>零件</name>
+    <unit>个</unit>
+  </QUE>
+  
+</Stratification>
+<!--
+有A、B、C三种零件，分别为a个，300个，200个，
+采用分层抽样抽取一个容量为45的样本，其中C种
+零件抽取了10个，则此三种零件共有（    ）个。
+
+-->

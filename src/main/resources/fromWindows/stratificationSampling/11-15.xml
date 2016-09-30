@@ -1,0 +1,61 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>观众</name>
+    <quantity>20000</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>最喜欢</name>
+    <quantity>4817</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>喜欢</name>
+    <quantity>7188</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>一般</name>
+    <quantity>6392</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>不喜欢</name>
+    <quantity>1603</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>100</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>最喜欢</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>喜欢</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>一般</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>不喜欢</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <QUE>
+    <description>每类人中各应抽出的人数近似为</description>
+    <belong>样本</belong>
+    <name>最喜欢,喜欢,一般,不喜欢</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>

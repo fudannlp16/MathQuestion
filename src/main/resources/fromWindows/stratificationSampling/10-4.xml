@@ -1,0 +1,51 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>低收入家庭</name>
+    <quantity>null</quantity>
+    <unit>户</unit>
+  </TS>
+  <SOT>
+    <name>甲社区</name>
+    <quantity>150</quantity>
+    <unit>户</unit>
+  </SOT>
+  <SOT>
+    <name>乙社区</name>
+    <quantity>200</quantity>
+    <unit>户</unit>
+  </SOT>
+  <SOT>
+    <name>丙社区</name>
+    <quantity>100</quantity>
+    <unit>户</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>90</quantity>
+    <unit>套</unit>
+  </S>
+  <SOS>
+    <name>甲社区</name>
+    <quantity>null</quantity>
+    <unit>户</unit>
+  </SOS>
+  <SOS>
+    <name>乙社区</name>
+    <quantity>null</quantity>
+    <unit>户</unit>
+  </SOS>
+  <SOS>
+    <name>丙社区</name>
+    <quantity>null</quantity>
+    <unit>户</unit>
+  </SOS>
+  <QUE>
+    <description>从甲社区中抽取的低收入家庭的户数为</description>
+    <belong>样本</belong>
+    <name>甲社区</name>
+    <unit>户</unit>
+  </QUE>
+</Stratification>

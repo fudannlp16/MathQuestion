@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stratification> 
+  <TS> <!--TotalSet表示总体-->
+    <name>学校</name><!--默认值是“总体”-->
+    <quantity>null</quantity>  <!--默认值是“null”-->
+    <unit>人</unit>  <!--默认值是“null”-->
+  </TS>  
+  <SOT>  <!--Stratification of TotalSet表示总体中的层-->
+    <name>高一年级</name>  
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <SOT> 
+    <name>高二年级</name>  
+    <quantity>300</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <SOT> 
+    <name>高三年级</name>  
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <S> <!--Sample表示样本-->
+    <name>样本</name>  <!--默认值是“样本”-->
+    <quantity>45</quantity>  
+    <unit>人</unit> 
+  </S>  
+  <SOS> <!--Stratification of Sample表示样本中的层-->
+    <name>高一年级</name>  
+    <quantity>20</quantity>  
+    <unit>人</unit> 
+  </SOS>  
+  <SOS> 
+    <name>高二年级</name>  
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOS>
+  <SOS> 
+    <name>高三年级</name>  
+    <quantity>10</quantity>  
+    <unit>人</unit> 
+  </SOS>  
+  <EQ> <!--关系-->
+  </EQ>
+  <QUE>
+    <description>则该校学生总数是</description>
+    <belong>null</belong>
+    <name>学校</name>
+    <unit>人</unit>
+  </QUE>
+  
+</Stratification>
+<!--
+用分层抽样的方法从某校学生中抽取一个容量为45的样本，
+其中高一年级抽20人，高三年级抽10人，已知该校高二年
+级共有学生300人，则该校学生总数是（    ）人。
+-->

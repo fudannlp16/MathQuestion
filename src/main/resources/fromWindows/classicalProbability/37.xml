@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ClassicalProbability> 
+  <Experiment> 
+    <!--试验-->  
+    <ExperimentObject> 
+      <!--试验对象-->  
+      <ObjectName>添加剂</ObjectName>  
+      <!--对象名称-->  
+      <ObjectTotality>6</ObjectTotality>  
+      <!--对象总数，如果未知，用n表示-->  
+        <DiscreteName>1;2;3;4;5;6</DiscreteName> 
+        <DomainQuantity>1;1;1;1;1;1</DomainQuantity>  <!--默认值均是1-->
+    </ExperimentObject>  
+     <ExperimentMethod> 
+        <!--试验方法-->  
+        <SamplingWay>1</SamplingWay><!--抽取方式：放回(0)与不放回(1)，默认值是1-->  
+        <SamplingQuantity>2</SamplingQuantity>          <!--抽取的数量，默认值1-->  
+        <SortingWay>1</SortingWay> <!--排序方式：有序(0)和无序(1)，默认值是1--> 
+      </ExperimentMethod>  
+    <ExperimentTimes>1</ExperimentTimes><!--试验次数，默认值为1-->
+    <ExperimentResult>  
+        <DiscreteName>null</DiscreteName>  
+        <DomainQuantity>null</DomainQuantity>  <!--默认值均是1-->
+    </ExperimentResult>     
+  </Experiment>
+  <Question> 
+    <EventName>两种不同的添加剂的芳香度之和等于6的概率</EventName>
+    <ResultFilter>等于(和(x1,x2),6)</ResultFilter>
+    <Probability>null</Probability>
+  </Question>
+</ClassicalProbability>
+
+<!--
+在添加剂的搭配使用中，为了找到最佳的搭配方案，需要对各种不同的搭配方式作比较．在试制某种洗涤剂时，需要选用两种不同的添加剂．现有芳香度分别为1，2，3，4，5，6的六种添加剂可供选用．根据试验设计原理，通常首先要随机选取两种不同的添加剂进行搭配试验．求所选用的两种不同的添加剂的芳香度之和等于6的概率．
+-->

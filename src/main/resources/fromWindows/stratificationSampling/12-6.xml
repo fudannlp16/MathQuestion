@@ -1,0 +1,56 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>职工</name>
+    <quantity>200</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>老年职工</name>
+    <quantity>60</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>中年职工</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>青年职工</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>老年职工</name>
+    <quantity>12</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>中年职工</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>青年职工</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <EQ>
+    <entityName>中年职工,青年职工</entityName>
+    <relation>倍</relation>
+    <value>1</value>
+  </EQ>
+  <QUE>
+    <description>抽取的青年职工应有</description>
+    <belong>样本</belong>
+    <name>青年职工</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>

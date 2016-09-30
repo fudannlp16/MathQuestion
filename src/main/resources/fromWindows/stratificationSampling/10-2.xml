@@ -1,0 +1,51 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>职工</name>
+    <quantity>160</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>业务员</name>
+    <quantity>120</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>管理人员</name>
+    <quantity>24</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>后勤人员</name>
+    <quantity>16</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>业务员</name>
+    <quantity>15</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>管理人员</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>后勤人员</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <QUE>
+    <description>那么这个样本的容量为</description>
+    <belong>null</belong>
+    <name>样本</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>

@@ -1,0 +1,51 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>玩具</name>
+    <quantity>6000</quantity>
+    <unit>件</unit>
+  </TS>
+  <SOT>
+    <name>甲厂</name>
+    <quantity>1440</quantity>
+    <unit>件</unit>
+  </SOT>
+  <SOT>
+    <name>乙厂</name>
+    <quantity>null</quantity>
+    <unit>件</unit>
+  </SOT>
+  <SOT>
+    <name>丙厂</name>
+    <quantity>null</quantity>
+    <unit>件</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>500</quantity>
+    <unit>件</unit>
+  </S>
+  <SOS>
+    <name>甲厂</name>
+    <quantity>null</quantity>
+    <unit>件</unit>
+  </SOS>
+  <SOS>
+    <name>乙厂</name>
+    <quantity>null</quantity>
+    <unit>件</unit>
+  </SOS>
+  <SOS>
+    <name>丙厂</name>
+    <quantity>null</quantity>
+    <unit>件</unit>
+  </SOS>
+  <QUE>
+    <description>则应从甲加工厂抽取</description>
+    <belong>样本</belong>
+    <name>甲厂</name>
+    <unit>件</unit>
+  </QUE>
+</Stratification>

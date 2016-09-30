@@ -1,0 +1,51 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>学生</name>
+    <quantity>5600</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>专科生</name>
+    <quantity>1300</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>本科生</name>
+    <quantity>3000</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>研究生</name>
+    <quantity>1300</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>280</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>专科生</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>本科生</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>研究生</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <QUE>
+    <description>专科生、本科生与研究生这三类学生中分别抽取的人数为</description>
+    <belong>样本</belong>
+    <name>专科生,本科生,研究生</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>

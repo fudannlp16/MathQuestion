@@ -1,0 +1,51 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>高中部</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>高一年级</name>
+    <quantity>400</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>高二年级</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>高三年级</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>45</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>高一年级</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>高二年级</name>
+    <quantity>15</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>高三年级</name>
+    <quantity>10</quantity>
+    <unit>人</unit>
+  </SOS>
+  <QUE>
+    <description>高中部的学生数为</description>
+    <belong>null</belong>
+    <name>高中部</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stratification> 
+  <TS> <!--TotalSet表示总体-->
+    <name>高中</name><!--默认值是“总体”-->
+    <quantity>null</quantity>  <!--默认值是“null”-->
+    <unit>人</unit>  <!--默认值是“null”-->
+  </TS>  
+  <SOT>  <!--Stratification of TotalSet表示总体中的层-->
+    <name>A类学校</name>  
+    <quantity>4000</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <SOT> 
+    <name>B类学校</name>  
+    <quantity>2000</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <SOT> 
+    <name>C类学校</name>  
+    <quantity>3000</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <S> <!--Sample表示样本-->
+    <name>样本</name>  <!--默认值是“样本”-->
+    <quantity>900</quantity>  
+    <unit>人</unit> 
+  </S>  
+  <SOS> <!--Stratification of Sample表示样本中的层-->
+    <name>A类学校</name>  
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOS>  
+  <SOS> 
+    <name>B类学校</name>  
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOS>
+  <SOS> 
+    <name>C类学校</name>  
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOS>  
+  <EQ> <!--关系-->
+  </EQ>
+  <QUE>
+    <description>从A类学校抽取的试卷分数应为</description>
+    <belong>样本</belong>
+    <name>A类学校</name>
+    <unit>人</unit>
+  </QUE>
+  
+</Stratification>
+<!--
+某地区的高中分三类，A类学校共有学生4000人，B类学校共有学生2000人，
+C类学校共有学生3000人，现欲抽样分析某次考试的情况，若抽取900份试
+卷进行分析，则从A类学校抽取的试卷分数应为
+[     ]
+A、450 
+B、400
+C、300 
+D、200
+
+-->

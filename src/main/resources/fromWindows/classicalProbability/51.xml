@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ClassicalProbability> 
+  <Experiment> 
+    <!--试验-->  
+    <ExperimentObject> 
+      <!--试验对象-->  
+      <ObjectName>大学毕业生</ObjectName>  
+      <!--对象名称-->  
+      <ObjectTotality>5</ObjectTotality>  
+      <!--对象总数，如果未知，用n表示-->  
+        <DiscreteName>甲;乙;丙;丁;戊</DiscreteName> 
+        <DomainQuantity>1;1;1;1;1</DomainQuantity>  <!--默认值均是1-->
+    </ExperimentObject>  
+     <ExperimentMethod> 
+        <!--试验方法-->  
+        <SamplingWay>1</SamplingWay><!--抽取方式：放回(0)与不放回(1)，默认值是1-->  
+        <SamplingQuantity>3</SamplingQuantity>          <!--抽取的数量，默认值1-->  
+        <SortingWay>1</SortingWay> <!--排序方式：有序(0)和无序(1)，默认值是1--> 
+      </ExperimentMethod>  
+    <ExperimentTimes>1</ExperimentTimes><!--试验次数，默认值为1-->
+    <ExperimentResult>  
+        <DiscreteName>null</DiscreteName>  
+        <DomainQuantity>null</DomainQuantity>  <!--默认值均是1-->
+    </ExperimentResult>     
+  </Experiment>
+  <Question>
+    <EventName>则甲或乙被录用的概率</EventName>
+    <ResultFilter>或(录用(甲),录用(乙))</ResultFilter>
+    <Probability>null</Probability>
+  </Question>
+</ClassicalProbability>
+
+
+<!--
+若某公司从五位大学毕业生甲、乙、丙、丁、戊中录用三人,这五人被录用的机会均等,则甲或乙被录用的概率为(  )
+-->

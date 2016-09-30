@@ -1,0 +1,51 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>产品</name>
+    <quantity>null</quantity>
+    <unit>件</unit>
+  </TS>
+  <SOT>
+    <name>A</name>
+    <quantity>1600</quantity>
+    <unit>件</unit>
+  </SOT>
+  <SOT>
+    <name>B</name>
+    <quantity>1600</quantity>
+    <unit>件</unit>
+  </SOT>
+  <SOT>
+    <name>C</name>
+    <quantity>4800</quantity>
+    <unit>件</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>N</quantity>
+    <unit>件</unit>
+  </S>
+  <SOS>
+    <name>A</name>
+    <quantity>16</quantity>
+    <unit>件</unit>
+  </SOS>
+  <SOS>
+    <name>B</name>
+    <quantity>null</quantity>
+    <unit>件</unit>
+  </SOS>
+  <SOS>
+    <name>C</name>
+    <quantity>null</quantity>
+    <unit>件</unit>
+  </SOS>
+  <QUE>
+    <description>此样本的容量N=</description>
+    <belong>null</belong>
+    <name>样本</name>
+    <unit>件</unit>
+  </QUE>
+</Stratification>

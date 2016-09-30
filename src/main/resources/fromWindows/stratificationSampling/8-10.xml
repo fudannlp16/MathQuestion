@@ -1,0 +1,51 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>职工</name>
+    <quantity>750</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>青年职工</name>
+    <quantity>350</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>中年职工</name>
+    <quantity>250</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>老年职工</name>
+    <quantity>150</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>青年职工</name>
+    <quantity>7</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>中年职工</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>老年职工</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <QUE>
+    <description>则样本容量为</description>
+    <belong>null</belong>
+    <name>样本</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>

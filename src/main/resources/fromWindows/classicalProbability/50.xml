@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ClassicalProbability> 
+  <Experiment> 
+    <!--试验-->  
+    <ExperimentObject> 
+      <!--试验对象-->  
+      <ObjectName>球</ObjectName>  
+      <!--对象名称-->  
+      <ObjectTotality>null</ObjectTotality>  
+      <!--对象总数，如果未知，用n表示-->  
+        <DiscreteName>白球;黑球</DiscreteName>  
+        <!--离散值域的名称-->  
+        <DomainQuantity>5;6</DomainQuantity>  
+        <!--离散值的数量，默认值为1-->  
+    </ExperimentObject>  
+      <ExperimentMethod> 
+        <SamplingWay>1</SamplingWay>  <!--抽取方式：放回(0)与不放回(1)，默认值是1-->  
+        <SamplingQuantity>3</SamplingQuantity>  
+        <!--抽取的数量-->  
+        <SortingWay>0</SortingWay>  <!--排序方式：有序(0)和无序(1)，默认值是1--> 
+      </ExperimentMethod>   
+    <ExperimentTimes>1</ExperimentTimes>  <!--试验次数，默认值为1-->
+    <ExperimentResult> 
+        <DiscreteName>null</DiscreteName>   
+        <DomainQuantity>null</DomainQuantity><!--实验结果离散值的数量，默认值为1--> 
+    </ExperimentResult>
+  </Experiment>
+  <Question>
+    <EventName>顺序为“黑白黑”的概率</EventName>
+    <ResultFilter>
+    	顺序(黑白黑)
+    </ResultFilter>
+    <Probability>null</Probability>
+  </Question>
+</ClassicalProbability>
+
+<!--
+袋子中有白球5只,黑球6只,连续取出3只球,则顺序为“黑白黑”的概率为(  )
+--> 

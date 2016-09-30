@@ -1,0 +1,56 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>城市</name>
+    <quantity>24</quantity>
+    <unit>个</unit>
+  </TS>
+  <SOT>
+    <name>甲</name>
+    <quantity>null</quantity>
+    <unit>个</unit>
+  </SOT>
+  <SOT>
+    <name>乙</name>
+    <quantity>null</quantity>
+    <unit>个</unit>
+  </SOT>
+  <SOT>
+    <name>丙</name>
+    <quantity>null</quantity>
+    <unit>个</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>6</quantity>
+    <unit>个</unit>
+  </S>
+  <SOS>
+    <name>甲</name>
+    <quantity>null</quantity>
+    <unit>个</unit>
+  </SOS>
+  <SOS>
+    <name>乙</name>
+    <quantity>null</quantity>
+    <unit>个</unit>
+  </SOS>
+  <SOS>
+    <name>丙</name>
+    <quantity>null</quantity>
+    <unit>个</unit>
+  </SOS>
+  <EQ>
+    <entityName>甲,乙,丙</entityName>
+    <relation>比</relation>
+    <value>1:3:2</value>
+  </EQ>
+  <QUE>
+    <description>丙组中应抽取的城市数为</description>
+    <belong>样本</belong>
+    <name>丙</name>
+    <unit>个</unit>
+  </QUE>
+</Stratification>

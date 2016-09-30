@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ClassicalProbability> 
+  <Experiment> 
+    <!--试验-->  
+    <ExperimentObject> 
+      <!--试验对象-->  
+      <ObjectName>纤维</ObjectName>  
+      <!--对象名称-->  
+      <ObjectTotality>40</ObjectTotality>  
+      <!--对象总数，如果未知，用n表示-->  
+        <DiscreteName>超过30mm;未超过30mm</DiscreteName>  
+        <!--离散值域的名称-->  
+        <DomainQuantity>12;null</DomainQuantity>  
+        <!--离散值的数量，默认值为1-->  
+    </ExperimentObject>  
+      <ExperimentMethod> 
+        <SamplingWay>1</SamplingWay>  <!--抽取方式：放回(0)与不放回(1)，默认值是1-->  
+        <SamplingQuantity>1</SamplingQuantity>  
+        <!--抽取的数量-->  
+        <SortingWay>1</SortingWay>  <!--排序方式：有序(0)和无序(1)，默认值是1--> 
+      </ExperimentMethod>   
+    <ExperimentTimes>1</ExperimentTimes>  <!--试验次数，默认值为1-->
+    <ExperimentResult> 
+        <DiscreteName>超过30mm的纤维</DiscreteName>   
+        <DomainQuantity>1</DomainQuantity><!--实验结果离散值的数量，默认值为1--> 
+    </ExperimentResult>
+  </Experiment>
+  <Question>
+    <EventName>从中任取一根，取到长度超过30mm的纤维的概率</EventName>
+    <ResultFilter>
+    	null
+    </ResultFilter>
+    <Probability>null</Probability>
+  </Question>
+</ClassicalProbability>
+
+
+<!--
+在40根纤维中，有12根的长度超过30mm，从中任取一根，取到长度超过30mm的纤维的概率是(  )
+-->

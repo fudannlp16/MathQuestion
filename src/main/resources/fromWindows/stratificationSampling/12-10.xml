@@ -1,0 +1,51 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>轿车</name>
+    <quantity>null</quantity>
+    <unit>辆</unit>
+  </TS>
+  <SOT>
+    <name>A型号</name>
+    <quantity>1200</quantity>
+    <unit>辆</unit>
+  </SOT>
+  <SOT>
+    <name>B型号</name>
+    <quantity>6000</quantity>
+    <unit>辆</unit>
+  </SOT>
+  <SOT>
+    <name>C型号</name>
+    <quantity>2000</quantity>
+    <unit>辆</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>46</quantity>
+    <unit>辆</unit>
+  </S>
+  <SOS>
+    <name>A型号</name>
+    <quantity>null</quantity>
+    <unit>辆</unit>
+  </SOS>
+  <SOS>
+    <name>B型号</name>
+    <quantity>null</quantity>
+    <unit>辆</unit>
+  </SOS>
+  <SOS>
+    <name>C型号</name>
+    <quantity>null</quantity>
+    <unit>辆</unit>
+  </SOS>
+  <QUE>
+    <description>C型号的轿车应抽取</description>
+    <belong>样本</belong>
+    <name>C型号</name>
+    <unit>辆</unit>
+  </QUE>
+</Stratification>

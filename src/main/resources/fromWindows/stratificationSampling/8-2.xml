@@ -1,0 +1,51 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>组委会</name>
+    <quantity>700</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>记者</name>
+    <quantity>240</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>运动员</name>
+    <quantity>360</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>裁判</name>
+    <quantity>100</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>35</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>记者</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>运动员</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>裁判</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <QUE>
+    <description>上述各类人员中依次抽取的人数分别是</description>
+    <belong>样本</belong>
+    <name>记者,运动员,裁判</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>

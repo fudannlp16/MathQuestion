@@ -1,0 +1,31 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>员工</name>
+    <quantity>240</quantity>
+    <unit>名</unit>
+  </TS>
+  <SOT>
+    <name>某部门</name>
+    <quantity>60</quantity>
+    <unit>名</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>20</quantity>
+    <unit>名</unit>
+  </S>
+  <SOS>
+    <name>某部门</name>
+    <quantity>null</quantity>
+    <unit>名</unit>
+  </SOS>
+  <QUE>
+    <description>这一部门抽取的员工人数是</description>
+    <belong>样本</belong>
+    <name>某部门</name>
+    <unit>名</unit>
+  </QUE>
+</Stratification>

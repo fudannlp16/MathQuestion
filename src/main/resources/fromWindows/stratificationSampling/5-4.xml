@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stratification> 
+  <TS> <!--TotalSet表示总体-->
+    <name>商店</name>  <!--默认值是“总体”-->
+    <quantity>300</quantity>  <!--默认值是“null”-->
+    <unit>家</unit>	<!--默认值是“null”-->
+  </TS>  
+  <SOT>  <!--Stratification of TotalSet表示总体中的层-->
+    <name>大型商店</name>   
+    <quantity>30</quantity>  
+    <unit>家</unit> 
+  </SOT>  
+  <SOT> 
+    <name>中型商店</name>   
+    <quantity>75</quantity>  
+    <unit>家</unit> 
+  </SOT>  
+  <SOT> 
+    <name>小型商店</name>   
+    <quantity>195</quantity>  
+    <unit>家</unit> 
+  </SOT>  
+  <S> <!--Sample表示样本-->
+    <name>样本</name>  <!--默认值是“样本”-->
+    <quantity>20</quantity>  
+    <unit>家</unit> 
+  </S>  
+  <SOS> <!--Stratification of Sample表示样本中的层-->
+    <name>大型商店</name>   
+    <quantity>null</quantity>  
+    <unit>家</unit> 
+  </SOS>  
+  <SOS> 
+    <name>中型商店</name>   
+    <quantity>null</quantity>  
+    <unit>家</unit> 
+  </SOS>
+  <SOS> 
+    <name>小型商店</name>   
+    <quantity>null</quantity>  
+    <unit>家</unit> 
+  </SOS>  
+  <EQ> 
+  </EQ>
+  <QUE>
+    <description>抽取的中型商店数是</description>
+    <belong>样本</belong>
+    <name>中型商店</name>
+    <unit>家</unit>
+  </QUE>
+</Stratification>
+
+<!--
+某地区有300家商店，其中大型商店有30家，中型商店有75家，小型商店有195家．
+为了掌握各商店的营业情况，要从中抽取一个容量为20的样本．若采用分层抽样的方法，抽取的中型商店数是（　　）
+A．2	B．3	C．5	D．13
+
+
+
+
+-->

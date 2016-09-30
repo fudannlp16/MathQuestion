@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ClassicalProbability> 
+  <Experiment> 
+    <!--试验-->  
+    <ExperimentObject> 
+      <!--试验对象-->  
+      <ObjectName>球</ObjectName>  
+      <!--对象名称-->  
+      <ObjectTotality>100</ObjectTotality>  
+      <!--对象总数，如果未知，用n表示-->  
+        <DiscreteName>红球;白球;黑球</DiscreteName>  
+        <!--离散值域的名称-->  
+        <DomainQuantity>45;n1;n2</DomainQuantity>  
+        <!--离散值的数量，默认值为1-->  
+    </ExperimentObject>  
+      <ExperimentMethod> 
+        <SamplingWay>1</SamplingWay>  <!--抽取方式：放回(0)与不放回(1)，默认值是1-->  
+        <SamplingQuantity>1</SamplingQuantity>  
+        <!--抽取的数量-->  
+        <SortingWay>1</SortingWay>  <!--排序方式：有序(0)和无序(1)，默认值是1--> 
+      </ExperimentMethod>   
+    <ExperimentTimes>1</ExperimentTimes>  <!--试验次数，默认值为1-->
+    <ExperimentResult> 
+        <DiscreteName>黑球</DiscreteName>   
+        <DomainQuantity>null</DomainQuantity><!--实验结果离散值的数量，默认值为1--> 
+    </ExperimentResult>
+  </Experiment>
+  <Question>
+    <EventName>从口袋中摸出一个球，摸出白球的概率是0.23，则摸出黑球的概率</EventName>
+    <ResultFilter>
+    	概率(白球)=0.23
+    </ResultFilter>
+    <Probability>null</Probability>
+  </Question>
+</ClassicalProbability>
+
+<!--
+口袋内装有100个大小相同的红球、白球和黑球，其中红球有45个，从口袋中摸出一个球，摸出白球的概率是0.23，则摸出黑球的概率是(  )
+-->

@@ -1,0 +1,41 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>学生</name>
+    <quantity>70</quantity>
+    <unit>名</unit>
+  </TS>
+  <SOT>
+    <name>高一</name>
+    <quantity>30</quantity>
+    <unit>名</unit>
+  </SOT>
+  <SOT>
+    <name>高二</name>
+    <quantity>40</quantity>
+    <unit>名</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>null</quantity>
+    <unit>名</unit>
+  </S>
+  <SOS>
+    <name>高一</name>
+    <quantity>6</quantity>
+    <unit>名</unit>
+  </SOS>
+  <SOS>
+    <name>高二</name>
+    <quantity>null</quantity>
+    <unit>名</unit>
+  </SOS>
+  <QUE>
+    <description>高二年级的学生中应抽取的人数为</description>
+    <belong>样本</belong>
+    <name>高二</name>
+    <unit>名</unit>
+  </QUE>
+</Stratification>

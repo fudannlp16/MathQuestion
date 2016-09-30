@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stratification> 
+  <TS> <!--TotalSet表示总体-->
+    <name>本科生</name>  <!--默认值是“总体”-->
+    <quantity>5000</quantity>  <!--默认值是“null”-->
+    <unit>人</unit>	<!--默认值是“null”-->
+  </TS>  
+  <SOT>  <!--Stratification of TotalSet表示总体中的层-->
+    <name>一年级</name>   
+    <quantity>null</quantity>  
+    <unit>人</unit>
+  </SOT>  
+  <SOT> 
+    <name>二年级</name>   
+    <quantity>null</quantity>  
+    <unit>人</unit>
+  </SOT>  
+  <SOT> 
+    <name>三年级</name>   
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOT> 
+  <SOT> 
+    <name>四年级</name>   
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+   </SOT>   
+  <S> <!--Sample表示样本-->
+    <name>样本</name>  <!--默认值是“样本”-->
+    <quantity>200</quantity>  
+    <unit>人</unit>
+  </S>  
+  <SOS> <!--Stratification of Sample表示样本中的层-->
+    <name>一年级</name>   
+    <quantity>null</quantity>  
+    <unit>人</unit>
+  </SOS>  
+  <SOS> 
+    <name>二年级</name>   
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOS>
+  <SOS> 
+    <name>三年级</name>   
+    <quantity>null</quantity>  
+    <unit>人</unit>
+  </SOS>
+  <SOS> 
+    <name>四年级</name>   
+    <quantity>null</quantity>  
+    <unit>人</unit>
+   </SOS>    
+  <EQ> <!--关系表征  B/C=10/1-->
+    <entityName>一年级,二年级,三年级,四年级</entityName>
+    <relation>比</relation>
+    <value>4:3:2:1</value>
+  </EQ>
+  <QUE>
+    <description>应抽取三年级的学生人数为</description>
+    <belong>样本</belong>
+    <name>三年级</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>
+
+<!--
+某大学数学系共有本科生5000人，其中一、二、三、四年级的人数比为4：3：2：1，
+要用分层抽样的方法从所有本科生中抽取一个容量为200的样本，则应抽取三年级的学生人数为[     ]
+A．80 
+B．40 
+C．60 
+D．20
+
+-->

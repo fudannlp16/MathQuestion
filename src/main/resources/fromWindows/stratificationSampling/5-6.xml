@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stratification> 
+  <TS> <!--TotalSet表示总体-->
+    <name>城市</name><!--默认值是“总体”-->
+    <quantity>24</quantity>  <!--默认值是“null”-->
+    <unit>个</unit>  <!--默认值是“null”-->
+  </TS>  
+  <SOT>  <!--Stratification of TotalSet表示总体中的层-->
+    <name>甲组</name>  
+    <quantity>4</quantity>  
+    <unit>个</unit> 
+  </SOT>  
+  <SOT> 
+    <name>乙组</name>  
+    <quantity>12</quantity>  
+    <unit>个</unit> 
+  </SOT>  
+  <SOT> 
+    <name>丙组</name>  
+    <quantity>8</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <S> <!--Sample表示样本-->
+    <name>样本</name>  <!--默认值是“样本”-->
+    <quantity>6</quantity>  
+    <unit>个</unit> 
+  </S>  
+  <SOS> <!--Stratification of Sample表示样本中的层-->
+    <name>甲组</name>  
+    <quantity>null</quantity>  
+    <unit>个</unit> 
+  </SOS>  
+  <SOS> 
+    <name>乙组</name>  
+    <quantity>null</quantity>  
+    <unit>个</unit> 
+  </SOS>
+  <SOS> 
+    <name>丙组</name>  
+    <quantity>null</quantity>  
+    <unit>个</unit> 
+  </SOS>  
+  <EQ> <!--关系-->
+  </EQ>
+  <QUE>
+    <description>丙组中应抽取的城市数为</description>
+    <belong>样本</belong>
+    <name>丙组</name>
+    <unit>个</unit>
+  </QUE>
+  
+</Stratification>
+<!--
+课题组进行城市农空气质量调查，按地域把24个城市分成甲、乙、丙三组，
+对应城市数分别为4、12、8。若用分层抽样抽取6个城市，则丙组中应抽取的城市数为（    ）。
+-->

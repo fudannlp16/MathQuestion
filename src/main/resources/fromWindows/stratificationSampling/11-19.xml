@@ -1,0 +1,61 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>企业</name>
+    <quantity>800</quantity>
+    <unit>家</unit>
+  </TS>
+  <SOT>
+    <name>外资企业</name>
+    <quantity>160</quantity>
+    <unit>家</unit>
+  </SOT>
+  <SOT>
+    <name>私营企业</name>
+    <quantity>320</quantity>
+    <unit>家</unit>
+  </SOT>
+  <SOT>
+    <name>国有企业</name>
+    <quantity>240</quantity>
+    <unit>家</unit>
+  </SOT>
+  <SOT>
+    <name>其他性质企业</name>
+    <quantity>80</quantity>
+    <unit>家</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>40</quantity>
+    <unit>家</unit>
+  </S>
+  <SOS>
+    <name>外资企业</name>
+    <quantity>null</quantity>
+    <unit>家</unit>
+  </SOS>
+  <SOS>
+    <name>私营企业</name>
+    <quantity>null</quantity>
+    <unit>家</unit>
+  </SOS>
+  <SOS>
+    <name>国有企业</name>
+    <quantity>null</quantity>
+    <unit>家</unit>
+  </SOS>
+  <SOS>
+    <name>其他性质企业</name>
+    <quantity>null</quantity>
+    <unit>家</unit>
+  </SOS>
+  <QUE>
+    <description>如何抽取较合理？</description>
+    <belong>样本</belong>
+    <name>外资企业,私营企业,国有企业,其他性质企业</name>
+    <unit>家</unit>
+  </QUE>
+</Stratification>

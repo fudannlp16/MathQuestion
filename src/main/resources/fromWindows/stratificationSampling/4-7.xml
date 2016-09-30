@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stratification> 
+  <TS> <!--TotalSet表示总体-->
+    <name>某单位</name><!--默认值是“总体”-->
+    <quantity>null</quantity>  <!--默认值是“null”-->
+    <unit>人</unit>  <!--默认值是“null”-->
+  </TS>  
+  <SOT>  <!--Stratification of TotalSet表示总体中的层-->
+    <name>老年人</name>  
+    <quantity>25</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <SOT> 
+    <name>中年人</name>  
+    <quantity>35</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <SOT> 
+    <name>青年人</name>  
+    <quantity>40</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <S> <!--Sample表示样本-->
+    <name>样本</name>  <!--默认值是“样本”-->
+    <quantity>40</quantity>  
+    <unit>人</unit> 
+  </S>  
+  <SOS> <!--Stratification of Sample表示样本中的层-->
+    <name>老年人</name>  
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOS>  
+  <SOS> 
+    <name>中年人</name>  
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOS>
+  <SOS> 
+    <name>青年人</name>  
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOS>  
+  <EQ> <!--关系-->
+  </EQ>
+  <QUE>
+    <description>老、中、青的人数依次为</description>
+    <belong>某单位</belong>
+    <name>老年人,中年人,青年人</name>
+    <unit>人</unit>
+  </QUE>
+  
+</Stratification>
+<!--
+某单位有老年人，中年人，青年人依次为25人，35人，40人，
+用分层抽样的方法抽取40人，则老、中、青的人数依次为
+[     ]
+A.8，14，18 
+B.9，13，18 
+C.10，14，16 
+D.9，14，17
+
+-->

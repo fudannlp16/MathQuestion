@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stratification> 
+  <TS> <!--TotalSet表示总体-->
+    <name>食品</name><!--默认值是“总体”-->
+    <quantity>null</quantity>  <!--默认值是“null”-->
+    <unit>种</unit>  <!--默认值是“null”-->
+  </TS>  
+  <SOT>  <!--Stratification of TotalSet表示总体中的层-->
+    <name>粮食类</name>  
+    <quantity>40</quantity>  
+    <unit>种</unit> 
+  </SOT>  
+  <SOT> 
+    <name>植物油类</name>  
+    <quantity>10</quantity>  
+    <unit>种</unit> 
+  </SOT>  
+  <SOT> 
+    <name>动物性食品类</name>  
+    <quantity>30</quantity>  
+    <unit>种</unit> 
+  </SOT>
+  <SOT> 
+    <name>果蔬类</name>  
+    <quantity>20</quantity>  
+    <unit>种</unit> 
+  </SOT>    
+  <S> <!--Sample表示样本-->
+    <name>样本</name>  <!--默认值是“样本”-->
+    <quantity>20</quantity>  
+    <unit>种</unit> 
+  </S>  
+  <SOS> <!--Stratification of Sample表示样本中的层-->
+    <name>粮食类</name>  
+    <quantity>null</quantity>  
+    <unit>种</unit> 
+  </SOS>  
+  <SOS> 
+    <name>植物油类</name>  
+    <quantity>null</quantity>  
+    <unit>种</unit> 
+  </SOS>
+  <SOS> 
+    <name>动物性食品类</name>  
+    <quantity>null</quantity>  
+    <unit>种</unit> 
+  </SOS>  
+   <SOS> 
+    <name>果蔬类</name>  
+    <quantity>null</quantity>  
+    <unit>种</unit> 
+  </SOS>  
+  <EQ> <!--关系-->
+  </EQ>
+  <QUE>
+    <description>抽取的植物油类与果蔬类食品种数之和</description>
+    <belong>样本</belong>
+    <name>和(植物油类,果蔬类)</name>
+    <unit>种</unit>
+  </QUE>
+  
+</Stratification>
+<!--
+某商场有四类食品，其中粮食类、植物油类、动物性食品类及果蔬类分别有
+40种、10种、30种、20种，从中抽取一个容量为20的样本进行食品安全检测．
+若采用分层抽样的方法抽取样本，则抽取的植物油类与果蔬类食品种数之和是（    ）．
+-->

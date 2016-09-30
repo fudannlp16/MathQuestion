@@ -1,0 +1,57 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>学校</name>
+    <quantity>null</quantity>
+    <unit>所</unit>
+  </TS>
+  <SOT>
+    <name>小学</name>
+    <quantity>150</quantity>
+    <unit>所</unit>
+  </SOT>
+  <SOT>
+    <name>中学</name>
+    <quantity>75</quantity>
+    <unit>所</unit>
+  </SOT>
+  <SOT>
+    <name>大学</name>
+    <quantity>25</quantity>
+    <unit>所</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>30</quantity>
+    <unit>所</unit>
+  </S>
+  <SOS>
+    <name>小学</name>
+    <quantity>null</quantity>
+    <unit>所</unit>
+  </SOS>
+  <SOS>
+    <name>中学</name>
+    <quantity>null</quantity>
+    <unit>所</unit>
+  </SOS>
+  <SOS>
+    <name>大学</name>
+    <quantity>null</quantity>
+    <unit>所</unit>
+  </SOS>
+  <QUE>
+    <description>从小学中抽取</description>
+    <belong>样本</belong>
+    <name>小学</name>
+    <unit>所</unit>
+  </QUE>
+  <QUE>
+    <description>中学中抽取/description>
+    <belong>样本</belong>
+    <name>中学</name>
+    <unit>所</unit>
+  </QUE>
+</Stratification>

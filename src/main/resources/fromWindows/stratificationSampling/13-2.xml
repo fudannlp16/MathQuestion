@@ -1,0 +1,51 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>职工</name>
+    <quantity>161</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>业务员</name>
+    <quantity>104</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>管理人员</name>
+    <quantity>33</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>后勤服务人员</name>
+    <quantity>24</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>20</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>业务员</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>管理人员</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>后勤服务人员</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <QUE>
+    <description>抽取管理人员</description>
+    <belong>样本</belong>
+    <name>管理人员</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>

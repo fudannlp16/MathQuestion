@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stratification> 
+  <TS> <!--TotalSet表示总体-->
+    <name>教师</name><!--默认值是“总体”-->
+    <quantity>null</quantity>  <!--默认值是“null”-->
+    <unit>人</unit>  <!--默认值是“null”-->
+  </TS>  
+  <SOT>  <!--Stratification of TotalSet表示总体中的层-->
+    <name>高级教师</name>  
+    <quantity>26</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <SOT> 
+    <name>中级教师</name>  
+    <quantity>104</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <SOT> 
+    <name>其他教师</name>  
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <S> <!--Sample表示样本-->
+    <name>样本</name>  <!--默认值是“样本”-->
+    <quantity>56</quantity>  
+    <unit>人</unit> 
+  </S>  
+  <SOS> <!--Stratification of Sample表示样本中的层-->
+    <name>高级教师</name>  
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOS>  
+  <SOS> 
+    <name>中级教师</name>  
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOS>
+  <SOS> 
+    <name>其他教师</name>  
+    <quantity>16</quantity>  
+    <unit>人</unit> 
+  </SOS>  
+  <EQ> <!--关系-->
+  </EQ>
+  <QUE>
+    <description>该校共有教师</description>
+    <belong>null</belong>
+    <name>教师</name>
+    <unit>人</unit>
+  </QUE>
+  
+</Stratification>
+<!--
+某校有高级教师26人，中级教师104人，其他教师若干人。为了了解该校教师的工资收入情况，
+若按分层抽样从该校的所有教师中抽取56人进行调查，已知从其他教师中共抽取了16人，
+则该校共有教师（    ）人。
+-->

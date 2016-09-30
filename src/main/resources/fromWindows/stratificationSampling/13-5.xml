@@ -1,0 +1,41 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>运动员</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>男运动员</name>
+    <quantity>56</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>女运动员</name>
+    <quantity>42</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>男运动员</name>
+    <quantity>8</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>女运动员</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <QUE>
+    <description>抽取的女运动员有</description>
+    <belong>样本</belong>
+    <name>女运动员</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>

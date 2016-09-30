@@ -1,0 +1,51 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>学生</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>高一</name>
+    <quantity>600</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>高二</name>
+    <quantity>680</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>高三</name>
+    <quantity>720</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>50</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>高一</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>高二</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>高三</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <QUE>
+    <description>高一、 高二、高三抽取的人数分别是</description>
+    <belong>样本</belong>
+    <name>高一,高二,高三</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>

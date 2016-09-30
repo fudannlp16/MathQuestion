@@ -1,0 +1,51 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>师生</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>老师</name>
+    <quantity>200</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>男学生</name>
+    <quantity>1200</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>女学生</name>
+    <quantity>1000</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>n</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>老师</name>
+    <quantity>80</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>男学生</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>女学生</name>
+    <quantity>80</quantity>
+    <unit>人</unit>
+  </SOS>
+  <QUE>
+    <description>n=</description>
+    <belong>null</belong>
+    <name>样本</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>

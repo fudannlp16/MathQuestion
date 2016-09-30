@@ -1,0 +1,56 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>树苗</name>
+    <quantity>null</quantity>
+    <unit>棵</unit>
+  </TS>
+  <SOT>
+    <name>小叶榕</name>
+    <quantity>null</quantity>
+    <unit>棵</unit>
+  </SOT>
+  <SOT>
+    <name>松柏</name>
+    <quantity>null</quantity>
+    <unit>棵</unit>
+  </SOT>
+  <SOT>
+    <name>梧桐</name>
+    <quantity>null</quantity>
+    <unit>棵</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>n</quantity>
+    <unit>棵</unit>
+  </S>
+  <SOS>
+    <name>小叶榕</name>
+    <quantity>80</quantity>
+    <unit>棵</unit>
+  </SOS>
+  <SOS>
+    <name>松柏</name>
+    <quantity>null</quantity>
+    <unit>棵</unit>
+  </SOS>
+  <SOS>
+    <name>梧桐</name>
+    <quantity>null</quantity>
+    <unit>棵</unit>
+  </SOS>
+  <EQ>
+    <entityName>小叶榕,松柏,梧桐</entityName>
+    <relation>比</relation>
+    <value>2:3:5</value>
+  </EQ>
+  <QUE>
+    <description>此样本的容量n=</description>
+    <belong>null</belong>
+    <name>样本</name>
+    <unit>棵</unit>
+  </QUE>
+</Stratification>

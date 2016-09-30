@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ClassicalProbability> 
+  <Experiment> 
+    <!--试验-->  
+    <ExperimentObject> 
+      <!--试验对象-->  
+      <ObjectName>卡片</ObjectName>  
+      <!--对象名称-->  
+      <ObjectTotality>10</ObjectTotality>  
+      <!--对象总数，如果未知，用n表示-->  
+        <DiscreteName>1;2;3;4;5;6;7;8;9;10</DiscreteName> 
+        <DomainQuantity>1;1;1;1;1;1;1;1;1;1</DomainQuantity>  <!--默认值均是1-->
+    </ExperimentObject>  
+     <ExperimentMethod> 
+        <!--试验方法-->  
+        <SamplingWay>0</SamplingWay><!--抽取方式：放回(0)与不放回(1)，默认值是1-->  
+        <SamplingQuantity>1</SamplingQuantity>          <!--抽取的数量，默认值1-->  
+        <SortingWay>1</SortingWay> <!--排序方式：有序(0)和无序(1)，默认值是1--> 
+      </ExperimentMethod>  
+    <ExperimentTimes>2</ExperimentTimes><!--试验次数，默认值为1-->
+    <ExperimentResult>  
+        <DiscreteName>null</DiscreteName>  
+        <DomainQuantity>null</DomainQuantity>  <!--默认值均是1-->
+    </ExperimentResult>     
+  </Experiment>
+  <Question>
+    <EventName>x+y是10的倍数的概率</EventName>
+    <ResultFilter>
+	倍数(x+y,10)
+    </ResultFilter>
+    <Probability>null</Probability>
+  </Question>
+</ClassicalProbability>
+
+<!--
+在箱子中装有十张卡片，分别写有1到10的十个整数；从箱子中任取一张卡片，记下它的读数x，然后再 放回箱子中；第二次再从箱子中任取一张卡片，记下它的读数y，则x+y是10的倍数的概率为（  ）
+-->

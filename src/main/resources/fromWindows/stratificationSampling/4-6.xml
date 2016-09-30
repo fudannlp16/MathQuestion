@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stratification> 
+  <TS> <!--TotalSet表示总体-->
+    <name>产品</name>  <!--默认值是“总体”-->
+    <quantity>null</quantity>  <!--默认值是“null”-->
+    <unit>件</unit>	<!--默认值是“null”-->
+  </TS>  
+  <SOT>  <!--Stratification of TotalSet表示总体中的层-->
+    <name>A</name>   
+    <quantity>null</quantity>  
+    <unit>件</unit> 
+  </SOT>  
+  <SOT> 
+    <name>B</name>   
+    <quantity>null</quantity>  
+    <unit>件</unit> 
+  </SOT>  
+  <SOT> 
+    <name>C</name>   
+    <quantity>null</quantity>  
+    <unit>件</unit> 
+  </SOT>  
+  <S> <!--Sample表示样本-->
+    <name>样本</name>  <!--默认值是“样本”-->
+    <quantity>null</quantity>  
+    <unit>null</unit> 
+  </S>  
+  <SOS> <!--Stratification of Sample表示样本中的层-->
+    <name>A</name>   
+    <quantity>null</quantity>  
+    <unit>件</unit> 
+  </SOS>  
+  <SOS> 
+    <name>B</name>   
+    <quantity>null</quantity>  
+    <unit>件</unit> 
+  </SOS>
+  <SOS> 
+    <name>C</name>   
+    <quantity>null</quantity>  
+    <unit>件</unit> 
+  </SOS>  
+  <EQ> <!--关系表征  B/C=10/1-->
+    <entityName>A,B,C</entityName>
+    <relation>比</relation>
+    <value>2:3:5</value>
+  </EQ>
+  <QUE>
+    <description>此样本的容量为</description>
+    <belong>null</belong>
+    <name>样本</name>
+    <unit>件</unit>
+  </QUE>
+</Stratification>
+
+<!--
+某工厂生产A、B、C三种不同型号的产品，产品数量之比依次为2：3：5。
+现用分层抽样的方法抽出一个容量为n的样本，样本中A种型号的产品共
+有16件，那么此样本的容量为
+[     ]
+A．70 
+B．80 
+C．90 
+D．100
+
+-->

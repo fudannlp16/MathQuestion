@@ -1,0 +1,51 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>学生</name>
+    <quantity>null</quantity>
+    <unit>名</unit>
+  </TS>
+  <SOT>
+    <name>甲校</name>
+    <quantity>3600</quantity>
+    <unit>名</unit>
+  </SOT>
+  <SOT>
+    <name>乙校</name>
+    <quantity>5400</quantity>
+    <unit>名</unit>
+  </SOT>
+  <SOT>
+    <name>丙校</name>
+    <quantity>1800</quantity>
+    <unit>名</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>90</quantity>
+    <unit>名</unit>
+  </S>
+  <SOS>
+    <name>甲校</name>
+    <quantity>null</quantity>
+    <unit>名</unit>
+  </SOS>
+  <SOS>
+    <name>乙校</name>
+    <quantity>null</quantity>
+    <unit>名</unit>
+  </SOS>
+  <SOS>
+    <name>丙校</name>
+    <quantity>null</quantity>
+    <unit>名</unit>
+  </SOS>
+  <QUE>
+    <description>应在这三校分别抽取学生</description>
+    <belong>样本</belong>
+    <name>甲校,乙校,丙校</name>
+    <unit>名</unit>
+  </QUE>
+</Stratification>

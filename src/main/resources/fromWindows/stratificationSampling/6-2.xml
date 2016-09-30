@@ -1,0 +1,31 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>树苗</name>
+    <quantity>30000</quantity>
+    <unit>棵</unit>
+  </TS>
+  <SOT>
+    <name>松树苗</name>
+    <quantity>4000</quantity>
+    <unit>棵</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>150</quantity>
+    <unit>棵</unit>
+  </S>
+  <SOS>
+    <name>松树苗</name>
+    <quantity>null</quantity>
+    <unit>棵</unit>
+  </SOS>
+  <QUE>
+    <description>样本中松树树苗的数量为</description>
+    <belong>样本</belong>
+    <name>松树苗</name>
+    <unit>棵</unit>
+  </QUE>
+</Stratification>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stratification> 
+  <TS> <!--TotalSet表示总体-->
+    <name>职工</name><!--默认值是“总体”-->
+    <quantity>150</quantity>  <!--默认值是“null”-->
+    <unit>人</unit>  <!--默认值是“null”-->
+  </TS>  
+  <SOT>  <!--Stratification of TotalSet表示总体中的层-->
+    <name>高级职称</name>  
+    <quantity>15</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <SOT> 
+    <name>中级职称</name>  
+    <quantity>45</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <SOT> 
+    <name>一般职员</name>  
+    <quantity>90</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <S> <!--Sample表示样本-->
+    <name>样本</name>  <!--默认值是“样本”-->
+    <quantity>30</quantity>  
+    <unit>人</unit> 
+  </S>  
+  <SOS> <!--Stratification of Sample表示样本中的层-->
+    <name>高级职称</name>  
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOS>  
+  <SOS> 
+    <name>中级职称</name>  
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOS>
+  <SOS> 
+    <name>一般职员</name>  
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOS>  
+  <EQ> <!--关系-->
+  </EQ>
+  <QUE>
+    <description>应该如何抽取</description>
+    <belong>样本</belong>
+    <name>高级职称,中级职称,一般职员</name>
+    <unit>人</unit>
+  </QUE>
+  
+</Stratification>
+<!--
+某企业有职工150人，其中高级职称15人，中级职称45人，
+一般职员90人。现抽取30人分析其收入情况，你认为应该如何抽取？
+-->

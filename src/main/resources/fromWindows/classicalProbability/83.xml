@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ClassicalProbability> 
+  <Experiment> 
+    <!--试验-->  
+    <ExperimentObject> 
+      <!--试验对象-->  
+      <ObjectName>球</ObjectName>  
+      <!--对象名称-->  
+      <ObjectTotality>null</ObjectTotality>  
+      <!--对象总数，如果未知，用n表示-->  
+        <DiscreteName>黑球;白球</DiscreteName>  
+        <!--离散值域的名称-->  
+        <DomainQuantity>3;3</DomainQuantity>  
+        <!--离散值的数量，默认值为1-->  
+    </ExperimentObject>  
+      <ExperimentMethod> 
+        <SamplingWay>1</SamplingWay>  <!--抽取方式：放回(0)与不放回(1)，默认值是1-->  
+        <SamplingQuantity>6</SamplingQuantity>  
+        <!--抽取的数量-->  
+        <SortingWay>0</SortingWay>  <!--排序方式：有序(0)和无序(1)，默认值是1--> 
+      </ExperimentMethod>   
+    <ExperimentTimes>1</ExperimentTimes>  <!--试验次数，默认值为1-->
+    <ExperimentResult> 
+        <DiscreteName>null</DiscreteName>   
+        <DomainQuantity>null</DomainQuantity><!--实验结果离散值的数量，默认值为1--> 
+    </ExperimentResult>
+  </Experiment>
+  <Question>
+    <EventName>左边3个小球恰好颜色相同的概率</EventName>
+    <ResultFilter>
+    	相同(左边([x1,x2,x3,x4,x5,x6],3))
+    </ResultFilter>
+    <Probability>null</Probability>
+  </Question>
+</ClassicalProbability>
+
+<!--
+现由黑白小球各3个，将它们任意排成一排，左边3个小球恰好颜色相同的概率是
+-->

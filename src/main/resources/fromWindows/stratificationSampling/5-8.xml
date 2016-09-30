@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stratification> 
+  <TS> <!--TotalSet表示总体-->
+    <name>产品</name><!--默认值是“总体”-->
+    <quantity>2048</quantity>  <!--默认值是“null”-->
+    <unit>个</unit>  <!--默认值是“null”-->
+  </TS>  
+  <SOT>  <!--Stratification of TotalSet表示总体中的层-->
+    <name>某一车间</name>  
+    <quantity>256</quantity>  
+    <unit>个</unit> 
+  </SOT>   
+  <S> <!--Sample表示样本-->
+    <name>样本</name>  <!--默认值是“样本”-->
+    <quantity>128</quantity>  
+    <unit>个</unit> 
+  </S>  
+  <SOS> <!--Stratification of Sample表示样本中的层-->
+    <name>某一车间</name>  
+    <quantity>null</quantity>  
+    <unit>个</unit> 
+  </SOS>  
+  <EQ> <!--关系-->
+  </EQ>
+  <QUE>
+    <description>从该车间抽取的产品件数为</description>
+    <belong>样本</belong>
+    <name>某一车间</name>
+    <unit>个</unit>
+  </QUE>
+  
+</Stratification>
+<!--
+一个工厂有若干个车间，今采用分层抽样法从全厂某天的2048件产品抽取一个容量为128的样本进行质量检查，
+若一车间这一天生产256件产品，则从该车间抽取的产品件数为（    ）
+-->

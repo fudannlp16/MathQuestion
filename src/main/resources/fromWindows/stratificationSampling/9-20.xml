@@ -1,0 +1,51 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>某单位</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>老年人</name>
+    <quantity>27</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>中年人</name>
+    <quantity>54</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>青年人</name>
+    <quantity>81</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>老年人</name>
+    <quantity>6</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>中年人</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>青年人</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <QUE>
+    <description>抽取的样本的人数是</description>
+    <belong>null</belong>
+    <name>样本</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>

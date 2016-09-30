@@ -1,0 +1,46 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>蔬菜</name>
+    <quantity>null</quantity>
+    <unit>千克</unit>
+  </TS>
+  <SOT>
+    <name>普通蔬菜</name>
+    <quantity>null</quantity>
+    <unit>千克</unit>
+  </SOT>
+  <SOT>
+    <name>无公害蔬菜</name>
+    <quantity>null</quantity>
+    <unit>千克</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>null</quantity>
+    <unit>千克</unit>
+  </S>
+  <SOS>
+    <name>普通蔬菜</name>
+    <quantity>315</quantity>
+    <unit>千克</unit>
+  </SOS>
+  <SOS>
+    <name>无公害蔬菜</name>
+    <quantity>45</quantity>
+    <unit>千克</unit>
+  </SOS>
+  <EQ>
+    <entityName>样本,蔬菜</entityName>
+    <relation>比</relation>
+    <value>1:20</value>
+  </EQ>
+  <QUE>
+    <description>该超市共有蔬菜</description>
+    <parentName>null</parentName>
+    <name>蔬菜</name>
+    <unit>千克</unit>
+  </QUE>
+</Stratification>

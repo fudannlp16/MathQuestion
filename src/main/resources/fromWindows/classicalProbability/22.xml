@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ClassicalProbability> 
+  <Experiment> 
+    <!--试验-->  
+    <ExperimentObject> 
+      <!--试验对象-->  
+      <ObjectName>正四面体玩具</ObjectName>  
+      <!--对象名称-->  
+      <ObjectTotality>8</ObjectTotality>  
+      <!--对象总数，如果未知，用n表示-->  
+        <DiscreteName>1;2;3;5</DiscreteName> 
+        <DomainQuantity>2;2;2;2</DomainQuantity>  <!--默认值均是1-->
+    </ExperimentObject>  
+     <ExperimentMethod> 
+        <!--试验方法-->  
+        <SamplingWay>0</SamplingWay><!--抽取方式：放回(0)与不放回(1)，默认值是1-->  
+        <SamplingQuantity>2</SamplingQuantity>          <!--抽取的数量，默认值1-->  
+        <SortingWay>0</SortingWay> <!--排序方式：有序(0)和无序(1)，默认值是1--> 
+      </ExperimentMethod>  
+    <ExperimentTimes>1</ExperimentTimes><!--试验次数，默认值为1-->
+    <ExperimentResult>  
+        <DiscreteName>null</DiscreteName>  
+        <DomainQuantity>null</DomainQuantity>  <!--默认值均是1-->
+    </ExperimentResult>     
+  </Experiment>
+  <Question>
+    <EventName>n为两个朝下的面上的数字之和.求事件“n不大于6”的概率</EventName>
+    <ResultFilter>不大于(和(x1,x2),6)</ResultFilter>
+    <Probability>null</Probability>
+  </Question>
+</ClassicalProbability>
+
+<!--
+有两枚大小相同、质地均匀的正四面体玩具，每个玩具的各个面上分别写着数字1，2，3，5. 同时投掷这两枚玩具一次，记n为两个朝下的面上的数字之和.求事件“n不大于6”的概率.
+-->

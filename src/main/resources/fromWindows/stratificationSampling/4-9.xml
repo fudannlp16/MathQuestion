@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stratification> 
+  <TS> <!--TotalSet表示总体-->
+    <name>学生</name><!--默认值是“总体”-->
+    <quantity>1200</quantity>  <!--默认值是“null”-->
+    <unit>名</unit>  <!--默认值是“null”-->
+  </TS>  
+  <SOT>  <!--Stratification of TotalSet表示总体中的层-->
+    <name>A专业</name>  
+    <quantity>380</quantity>  
+    <unit>名</unit> 
+  </SOT>  
+  <SOT> 
+    <name>B专业</name>  
+    <quantity>420</quantity>  
+    <unit>名</unit> 
+  </SOT>  
+  <SOT> 
+    <name>C专业</name>  
+    <quantity>null</quantity>  
+    <unit>名</unit> 
+  </SOT>  
+  <S> <!--Sample表示样本-->
+    <name>样本</name>  <!--默认值是“样本”-->
+    <quantity>120</quantity>  
+    <unit>名</unit> 
+  </S>  
+  <SOS> <!--Stratification of Sample表示样本中的层-->
+    <name>A专业</name>  
+    <quantity>null</quantity>  
+    <unit>名</unit> 
+  </SOS>  
+  <SOS> 
+    <name>B专业</name>  
+    <quantity>null</quantity>  
+    <unit>名</unit> 
+  </SOS>
+  <SOS> 
+    <name>C专业</name>  
+    <quantity>null</quantity>  
+    <unit>名</unit> 
+  </SOS>  
+  <EQ> <!--关系-->
+  </EQ>
+  <QUE>
+    <description>C专业中应抽取</description>
+    <belong>样本</belong>
+    <name>C专业</name>
+    <unit>名</unit>
+  </QUE>
+  
+</Stratification>
+<!--
+某学院的A，B，C三个专业共有1200名学生，为了调查这些学生勤工俭学的情况，
+拟采用分层抽样的方法抽取一个容量为120的样本。已知该学院的A专业有380名学生，
+B专业有420名学生，则在该学院的C专业中应抽取（    ）名学生。
+-->
