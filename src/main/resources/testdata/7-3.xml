@@ -1,0 +1,66 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>乳类商品</name>
+    <quantity>null</quantity>
+    <unit>种</unit>
+  </TS>
+  <SOT>
+    <name>纯奶</name>
+    <quantity>30</quantity>
+    <unit>种</unit>
+  </SOT>
+  <SOT>
+    <name>酸奶</name>
+    <quantity>10</quantity>
+    <unit>种</unit>
+  </SOT>
+  <SOT>
+    <name>婴幼儿奶粉</name>
+    <quantity>35</quantity>
+    <unit>种</unit>
+  </SOT>
+  <SOT>
+    <name>成人奶粉</name>
+    <quantity>25</quantity>
+    <unit>种</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>n</quantity>
+    <unit>种</unit>
+  </S>
+  <SOS>
+    <name>纯奶</name>
+    <quantity>null</quantity>
+    <unit>种</unit>
+  </SOS>
+  <SOS>
+    <name>酸奶</name>
+    <quantity>null</quantity>
+    <unit>种</unit>
+  </SOS>
+  <SOS>
+    <name>婴幼儿奶粉</name>
+    <quantity>7</quantity>
+    <unit>种</unit>
+  </SOS>
+  <SOS>
+    <name>成人奶粉</name>
+    <quantity>null</quantity>
+    <unit>种</unit>
+  </SOS>
+  <QUE>
+    <description>n=</description>
+    <belong>null</belong>
+    <name>样本</name>
+    <unit>种</unit>
+  </QUE>
+</Stratification>
+
+
+<!--某大型超市销售的乳类商品有四种：纯奶、酸奶、婴幼儿奶粉、成人奶粉，
+且纯奶、酸奶、婴幼儿奶粉、成人奶粉分别有30种、10种、35种、25种不同的品牌。
+现采用分层抽样的方法从中抽取一个容量为n的样本进行三聚氰胺安全检测，若抽取的婴幼儿奶粉的品牌数是7，则n=（    ）-->

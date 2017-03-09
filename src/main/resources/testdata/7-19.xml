@@ -1,0 +1,58 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>总体</name>
+    <quantity>null</quantity>
+    <unit>null</unit>
+  </TS>
+  <SOT>
+    <name>A</name>
+    <quantity>null</quantity>
+    <unit>null</unit>
+  </SOT>
+  <SOT>
+    <name>B</name>
+    <quantity>null</quantity>
+    <unit>null</unit>
+  </SOT>
+  <SOT>
+    <name>C</name>
+    <quantity>null</quantity>
+    <unit>null</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>200</quantity>
+    <unit>null</unit>
+  </S>
+  <SOS>
+    <name>A</name>
+    <quantity>null</quantity>
+    <unit>null</unit>
+  </SOS>
+  <SOS>
+    <name>B</name>
+    <quantity>null</quantity>
+    <unit>null</unit>
+  </SOS>
+  <SOS>
+    <name>C</name>
+    <quantity>null</quantity>
+    <unit>null</unit>
+  </SOS>
+  <EQ>
+    <entityName>A,B,C</entityName>
+    <relation>比</relation>
+    <value>4:3:3</value>
+  </EQ>
+  <QUE>
+    <description>应从B中抽取的个体数为</description>
+    <belong>样本</belong>
+    <name>B</name>
+    <unit>null</unit>
+  </QUE>
+</Stratification>
+
+<!--一个总体分为A、B、C三层，其中个体数之比为4：3：3，若用分层抽样的方法抽取容量为200的样本，则应从B中抽取的个体数为-->

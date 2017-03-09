@@ -1,0 +1,64 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>驾驶员</name>
+    <quantity>N</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>甲社区</name>
+    <quantity>96</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>乙社区</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>丙社区</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>丁社区</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>甲社区</name>
+    <quantity>12</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>乙社区</name>
+    <quantity>21</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>丙社区</name>
+    <quantity>25</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>丁社区</name>
+    <quantity>43</quantity>
+    <unit>人</unit>
+  </SOS>
+  <QUE>
+    <description>四个社区驾驶员的总人数N为</description>
+    <belong>null</belong>
+    <name>驾驶员</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>
+
+
+<!--交通管理部门为了解机动车驾驶员（简称驾驶员）对某新法规的知晓情况，对甲、乙、丙、丁四个社区做分层抽样调查．假设四个社区驾驶员的总人数为N，其中甲社区有驾驶员96人．若在甲、乙、丙、丁四个社区抽取驾驶员的人数分别为12，21，25，43，则这四个社区驾驶员的总人数N为-->

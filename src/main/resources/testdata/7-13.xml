@@ -1,0 +1,58 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>产品</name>
+    <quantity>null</quantity>
+    <unit>null</unit>
+  </TS>
+  <SOT>
+    <name>A</name>
+    <quantity>null</quantity>
+    <unit>null</unit>
+  </SOT>
+  <SOT>
+    <name>B</name>
+    <quantity>null</quantity>
+    <unit>null</unit>
+  </SOT>
+  <SOT>
+    <name>C</name>
+    <quantity>null</quantity>
+    <unit>null</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>n</quantity>
+    <unit>null</unit>
+  </S>
+  <SOS>
+    <name>A</name>
+    <quantity>null</quantity>
+    <unit>null</unit>
+  </SOS>
+  <SOS>
+    <name>B</name>
+    <quantity>28</quantity>
+    <unit>null</unit>
+  </SOS>
+  <SOS>
+    <name>C</name>
+    <quantity>null</quantity>
+    <unit>null</unit>
+  </SOS>
+  <EQ>
+    <entityName>A,B,C</entityName>
+    <relation>比</relation>
+    <value>3:4:7</value>
+  </EQ>
+  <QUE>
+    <description>此样本的容量n=</description>
+    <belong>null</belong>
+    <name>样本</name>
+    <unit>null</unit>
+  </QUE>
+</Stratification>
+
+<!--某工厂生产A，B，C三种不同型号的产品，产品数量之比依次为3：4：7，现用分层抽样的方法取出一个容量为n的样本，样本中B型号产品有28件，那么此样本的容量n=-->

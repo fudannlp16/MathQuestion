@@ -1,0 +1,53 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>学生</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>高一学生</name>
+    <quantity>210</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>高二学生</name>
+    <quantity>270</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>高三学生</name>
+    <quantity>300</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>n</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>高一学生</name>
+    <quantity>7</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>高二学生</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>高三学生</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <QUE>
+    <description>从高三中抽取的人数应为</description>
+    <belong>样本</belong>
+    <name>高三学生</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>
+
+<!--某学校高一学生210人，高二学生270人、高三学生300人，校学生会用分层抽样的方法从这三个年级的学生中随机抽取n名学生进行问卷调查。如果已知从高一学生中抽取的人数为7，那么从高三中抽取的人数应为-->

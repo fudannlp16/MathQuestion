@@ -1,0 +1,58 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>学生</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>高一</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>高二</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>高三</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>n</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>高一</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>高二</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>高三</name>
+    <quantity>150</quantity>
+    <unit>人</unit>
+  </SOS>
+  <EQ>
+    <entityName>高一,高二,高三</entityName>
+    <relation>2:3:5</relation>
+    <value>null</value>
+  </EQ>
+  <QUE>
+    <description>n的值等于</description>
+    <belong>null</belong>
+    <name>样本</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>
+
+<!--某中学高一、高二、高三学生人数之比依次为2：3：5，现用分层抽样的方法抽出一个样本容量为n的样本，样本中高三学生有150人，那么n的值等于（    ）-->

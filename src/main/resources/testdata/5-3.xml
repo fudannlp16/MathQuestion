@@ -1,0 +1,56 @@
+﻿
+<?xml version="1.0" encoding="utf-8"?>
+<Stratification> 
+  <TS> <!--TotalSet表示总体-->
+    <name>师生</name><!--默认值是“总体”-->
+    <quantity>null</quantity>  <!--默认值是“null”-->
+    <unit>人</unit>  <!--默认值是“null”-->
+  </TS>  
+  <SOT>  <!--Stratification of TotalSet表示总体中的层-->
+    <name>高中生</name>  
+    <quantity>1200</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <SOT> 
+    <name>初中生</name>  
+    <quantity>900</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <SOT> 
+    <name>老师</name>  
+    <quantity>120</quantity>  
+    <unit>人</unit> 
+  </SOT>  
+  <S> <!--Sample表示样本-->
+    <name>样本</name>  <!--默认值是“样本”-->
+    <quantity>N</quantity>  
+    <unit>人</unit> 
+  </S>  
+  <SOS> <!--Stratification of Sample表示样本中的层-->
+    <name>高中生</name>  
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOS>  
+  <SOS> 
+    <name>初中生</name>  
+    <quantity>60</quantity>  
+    <unit>人</unit> 
+  </SOS>
+  <SOS> 
+    <name>老师</name>  
+    <quantity>null</quantity>  
+    <unit>人</unit> 
+  </SOS>  
+  <EQ> <!--关系-->
+  </EQ>
+  <QUE>
+    <description>N=</description>
+    <belong>null</belong>
+    <name>样本</name>
+    <unit>人</unit>
+  </QUE>
+  
+</Stratification>
+<!--
+某校有高中生1200人，初中生900人，老师120人，现用分层抽样的方法从所有师生中抽取一个容量为N的样本；已知从初中生中抽取人数为60人，那么N=______
+-->

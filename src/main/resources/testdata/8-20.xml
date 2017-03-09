@@ -1,0 +1,42 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>师生</name>
+    <quantity>2400</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>学生</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>教师</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>160</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>学生</name>
+    <quantity>150</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>教师</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <QUE>
+    <description>该学校的教师人数是</description>
+    <belong>师生</belong>
+    <name>教师</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>
+<!--某校有学生2000人，其中高三学生500人。为了解学生的身体素质情况，采用按年级分层抽样方法，从该校学生中抽取一个200人的样本，则样本中高三学生的人数为（    ）-->

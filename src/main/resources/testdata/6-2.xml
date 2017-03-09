@@ -1,0 +1,35 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>树苗</name>
+    <quantity>30000</quantity>
+    <unit>棵</unit>
+  </TS>
+  <SOT>
+    <name>松树苗</name>
+    <quantity>4000</quantity>
+    <unit>棵</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>150</quantity>
+    <unit>棵</unit>
+  </S>
+  <SOS>
+    <name>松树苗</name>
+    <quantity>null</quantity>
+    <unit>棵</unit>
+  </SOS>
+  <QUE>
+    <description>样本中松树树苗的数量为</description>
+    <belong>样本</belong>
+    <name>松树苗</name>
+    <unit>棵</unit>
+  </QUE>
+</Stratification>
+
+
+<!--某林场有树苗30000棵，其中松树苗4000棵，为调查树苗的生长情况，
+采用分层抽样的方法抽取一个容量为150的样本，则样本中松树苗的数量为-->

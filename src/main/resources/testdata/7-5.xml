@@ -1,0 +1,34 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>高二学生</name>
+    <quantity>30000</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>女生</name>
+    <quantity>10000</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>150</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>女生</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <QUE>
+    <description>样本中女生的数量为</description>
+    <belong>样本</belong>
+    <name>女生</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>
+
+
+<!--今年某市有高二学生3万人，其中女生1万人，为调查了解新课改教材使用情况，采用分层抽样的方法从高二学生中抽取一个容量为150的样本，则样本中女生的数量为-->

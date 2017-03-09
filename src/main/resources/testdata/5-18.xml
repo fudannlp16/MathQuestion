@@ -1,0 +1,54 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>居民</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>青年人</name>
+    <quantity>800</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>中年人</name>
+    <quantity>1600</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>老年人</name>
+    <quantity>1400</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>青年人</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>中年人</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>老年人</name>
+    <quantity>70</quantity>
+    <unit>人</unit>
+  </SOS>
+  <QUE>
+    <description>中年人中的抽样人数应该是</description>
+    <belong>样本</belong>
+    <name>中年人</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>
+
+
+<!--某社区对居民进行上海世博会知晓情况的分层抽样调查，已知该社区的青年人、中年人和老年人分别有800人、1600人、1400人，若在老年人中的抽样人数是70，则在中年人中的抽样人数应该是（    ）-->

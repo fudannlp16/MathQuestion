@@ -1,0 +1,57 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>职工</name>
+    <quantity>430</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>青年职工</name>
+    <quantity>160</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>中年职工</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>老年职工</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>青年职工</name>
+    <quantity>32</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>中年职工</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>老年职工</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <EQ>
+    <entityName>中年职工,老年职工</entityName>
+    <relation>倍</relation>
+    <value>2</value>
+  </EQ>
+  <QUE>
+    <description>该样本中的老年职工人数为</description>
+    <belong>样本</belong>
+    <name>老年职工</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>
+<!--某单位共有老、中、青职工430人，其中青年职工160人，中年职工人数是老年职工人数的2倍。为了解职工身体状况，现采用分层抽样方法进行调查，在抽取的样本中有青年职工32人，则该样本中的老年职工人数为-->

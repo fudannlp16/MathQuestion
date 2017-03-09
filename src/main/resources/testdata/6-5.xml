@@ -1,0 +1,64 @@
+﻿  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Stratification>
+  <TS>
+    <name>职工</name>
+    <quantity>800</quantity>
+    <unit>人</unit>
+  </TS>
+  <SOT>
+    <name>高级职称</name>
+    <quantity>160</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>中级职称</name>
+    <quantity>320</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>初级职称</name>
+    <quantity>200</quantity>
+    <unit>人</unit>
+  </SOT>
+  <SOT>
+    <name>其余人员</name>
+    <quantity>120</quantity>
+    <unit>人</unit>
+  </SOT>
+  <S>
+    <name>样本</name>
+    <quantity>40</quantity>
+    <unit>人</unit>
+  </S>
+  <SOS>
+    <name>高级职称</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>中级职称</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>初级职称</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <SOS>
+    <name>其余人员</name>
+    <quantity>null</quantity>
+    <unit>人</unit>
+  </SOS>
+  <QUE>
+    <description>上述各层中依次抽取的人数分别是</description>
+    <belong>样本</belong>
+    <name>高级职称,中职职称,低级职称,其余人员</name>
+    <unit>人</unit>
+  </QUE>
+</Stratification>
+
+
+<!--一个单位有职工800人，其中具有高级职称的160人，具有中级职称的320人，具有初级职称的200人，其余人员120人，为了解职工收入情况，决定采用分层抽样的方法，从中抽取容量为40的样本。则从上述各层中依次抽取的人数分别是-->
