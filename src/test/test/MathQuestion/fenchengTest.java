@@ -173,6 +173,7 @@ public class fenchengTest {
             System.out.println(tag+" "+questions);
 
             String sotResultTrue = DataProcess.getXmlS(new File(fileName + ".xml"), "SOT");
+            System.out.println("--------------------------------------");
             System.out.println(sotResultTrue);
 
             List<SO> sotList=sotReg.getSOTResult(questions);
